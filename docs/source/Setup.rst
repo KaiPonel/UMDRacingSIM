@@ -1,4 +1,4 @@
-Setting up the simulation
+Setup
 =====
 There are different ways how you can access the simulation. Depending on your situation and ressources available you may want to install Carla in a container enviorment or on your local machine. 
 .. _installation:

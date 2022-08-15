@@ -14,7 +14,7 @@ Contents
 
 .. toctree::
 
-   usage
+   Setting up the simulation
    api
 
 

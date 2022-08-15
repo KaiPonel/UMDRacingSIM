@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'UMD-Driverless Simulator'
+copyright = '2022, UMD-Racing'
+author = 'UMD-Racing'
 
 release = '0.1'
 version = '0.1.0'

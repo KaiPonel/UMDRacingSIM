@@ -14,22 +14,30 @@ Build Carla in Apptainer
 ------------
 **1. Install Apptainer**
 If you don't have Apptainer (ex-Singularity) installed on your machine / computing cluster refer to  `Installing Apptainer <https://apptainer.org/docs/admin/main/installation.html>`_ for installation. 
+
 **2. Run the Build process using a definition (.def) file**
 Once you have installed Apptainer, you can build a new container using a definition file. This file includes everything needed to install Carla in an Apptainer container with all dependencies. 
+
 You can download the build file for the latest version of Carla (0.9.13) here (ToDo):
+
 A: Buildfile including copy of vulkan .json file
+
 B: Buildfile excluding copy of vulkan .json file.
-To use Lumache, first install it using pip:
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
 
 Build Carla in Docker
 ----------------
 .. note::
 
    ToDo.
+  
+  
+  
+To use Lumache, first install it using pip:
+
+.. code-block:: console
+
+   (.venv) $ pip install lumache
   
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:

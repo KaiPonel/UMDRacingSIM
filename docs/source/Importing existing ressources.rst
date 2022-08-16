@@ -1,7 +1,8 @@
-Importing existing ressources
-===
+Welcome to the Carla-based UMD-Driverless simulator
+===================================
 
-.. autosummary::
-   :toctree: generated
+Create and import Maps
+--------
 
-   lumache
+Create and import Vehicles
+--------

@@ -1,13 +1,13 @@
-Welcome to the Carla-based UMD-Driverless simulator
+Importing Ressources
 ===================================
 (Placeholder)
 
 
-Create and import Maps
+Import Maps
 --------
 (Placeholder)
 
 
-Create and import Vehicles
+Import Vehicles
 --------
 (Placeholder)

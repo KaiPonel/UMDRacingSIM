@@ -7,7 +7,7 @@ Requirements
 ------------
 - **Ubuntu 18.04 or later**
 - **130 GB disk space**
-- **A strong GPU** (Atleast 6GB VRam, 8GB recommended) 
+- **A strong GPU** (Atleast 6GB VRam, 8GB recommended - 2070 or higher) 
 - **2-4 Hours time** (Depending on CPU and Internet speed)
 
 Build Carla in Apptainer 

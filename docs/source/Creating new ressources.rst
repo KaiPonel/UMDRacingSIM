@@ -1,4 +1,4 @@
-Creating new ressources in Carla
+Creating
 ===================================
 
 Maps

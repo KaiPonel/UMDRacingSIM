@@ -15,9 +15,9 @@ Contents
 .. toctree::
 
    Setup
-   Importing existing ressources
-   Creating new ressources
-   Running the simulation 
+   Importing
+   Creating
+   Running
 
 
 Check out the :doc:`Setting up the simulation` section for further information, including

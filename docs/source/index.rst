@@ -20,9 +20,6 @@ Contents
    Running
 
 
-Check out the :doc:`Setting up the simulation` section for further information, including
-how to :ref:`installation` the project.
-
 .. note::
 
    This project is under active development.

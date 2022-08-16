@@ -17,7 +17,9 @@ Contents
 .. toctree::
 
    Setup
-   
+   Importing
+   Creating
+   Running
 
 .. note::
 

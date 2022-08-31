@@ -34,7 +34,7 @@ This node auto model must now be uploaded to Unreal Engine to create a physical 
 To do this, press Add/Import => import to game => select file => Import in the Content Browser (see import details here: https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/).
 Now you will find a file named Vehicle_Name_ PhysicsAssets in the Content Browser. If you click on it, it will open and you will see a physics model.
 
-.. iamge:: iamges/UEFourthWheel.png 
+.. image:: iamges/UEFourthWheel.png 
 
 If UE does not recognize a wheel, click Options in the left Skeleton Tree window and select Show All Bones:
 
@@ -47,6 +47,6 @@ Now the left front wheel should also be displayed.
 Since the wheels are not round, I change this on the right side in the Tools/Body Creation window. 
 There I select Sphere instead of Capsule. I can also do this with the Vehicle Base, but there not with Sphere but with Multi Convex Hull, so the physics model is even closer to the actual model.
 
-..image:: images/perfectModel.png 
+.. image:: images/perfectModel.png 
 
 

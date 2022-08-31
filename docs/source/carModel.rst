@@ -12,7 +12,7 @@ Keep in mind that the wheels must still be single objects, so they can't be join
 So the following must be present: 
 A model where the single wheels are still objects and the rest of the car is an object, i.e. you have a model which consists of five objects.
 
-..image:: images/blenderObjectHierarchy.png 
+.. image:: images/blenderObjectHierarchy.png 
 
 In order for CARLA to work with the model, each car model still needs bones. 
 The structure of the required bones can be found here: https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/ (Add a 4 wheeled wehicle)
@@ -20,9 +20,9 @@ The structure of the required bones can be found here: https://carla.readthedocs
 In the bone model, the bones hang together, these must first be detached from each other and later hang together again in the same hierarchy. 
 These bones must be on the wheels, as well as on the chassis.
 
-..image:: images/carFront.png 
+.. image:: images/carFront.png 
 
-..image:: images/carBelow.png 
+.. image:: images/carBelow.png 
 
 When adding the bones it is important that the hierarchy of the bones is not changed (see picture above)!
 
@@ -34,11 +34,11 @@ This node auto model must now be uploaded to Unreal Engine to create a physical 
 To do this, press Add/Import => import to game => select file => Import in the Content Browser (see import details here: https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/).
 Now you will find a file named Vehicle_Name_ PhysicsAssets in the Content Browser. If you click on it, it will open and you will see a physics model.
 
-..iamge:: iamges/UEFourthWheel.png 
+.. iamge:: iamges/UEFourthWheel.png 
 
 If UE does not recognize a wheel, click Options in the left Skeleton Tree window and select Show All Bones:
 
-..image:: images/skeletonTree.png 
+.. image:: images/skeletonTree.png 
 
 When you have done this, you will see all the wheels and the Vehicle Base.
 If a wheel is missing, select it (in my case the left front wheel) and click on Add Bodies in the lower right corner. 

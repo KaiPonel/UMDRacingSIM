@@ -19,6 +19,8 @@ Contents
    Importing
    Creating
    Running
+   createMap
+   carModel
 
 .. note::
 

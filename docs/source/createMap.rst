@@ -14,7 +14,7 @@ https://de.mathworks.com/help/roadrunner/ug/install-and-activate-roadrunner.html
 
 Now that you have a license, install Roadrunner as described above (link). Remember that your computer must be logged in!
 
-.. image:: iamges/licenses.png
+.. image:: images/licenses.png
 
 Quick links: 
 - Tutorials: https://de.mathworks.com/videos/search.html?q=&fq[]=product:RD&page=1

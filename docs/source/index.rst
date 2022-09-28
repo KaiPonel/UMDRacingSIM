@@ -53,3 +53,34 @@ Admin Documentation
 :doc:`Setup`
     Other
 
+
+.. Hidden TOCs
+.. toctree::
+   :caption: About this Project
+   :maxdepth: 2
+   :hidden:
+
+   setup
+   setup
+   setup 
+   setup
+   
+.. toctree::
+   :caption: User Documentation
+   :maxdepth: 2
+   :hidden:
+
+   setup
+   setup
+   setup 
+   setup
+
+.. toctree::
+   :caption: Admin Documentation
+   :maxdepth: 2
+   :hidden:
+
+   setup
+   setup
+   setup 
+   setup

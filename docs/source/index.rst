@@ -9,19 +9,47 @@ Using Carla every part of the autonomous driving workflow can be adressed.
 
    To learn more about carla itself, please have a look at the `carla Documentation <https://carla.readthedocs.io/en/latest/>`_.
 
-Contents
---------
+About this Project
+----------------
 
-.. toctree::
-   :numbered:
-   
-   Setup
-   Importing
-   Creating
-   Running
-   createMap
-   carModel
+:doc:`Setup`
+    Archictural Overview
 
-.. note::
+:doc:`Setup`
+    Different Usecases 
 
-   This project is under active development
+:ref:`Setup`
+    About this Documentation
+
+
+
+User Documentation
+----------------
+
+:doc:`Setup`
+    Setting up the Container Enviorment
+
+:doc:`Setup`
+    Starting the Container
+
+:ref:`Setup`
+    Creating and Importing Maps 
+
+:ref:`Setup`
+    Creating and Importing Vehicles
+
+Admin Documentation
+-----------
+
+:doc:`Setup`
+    Technical Overview 
+
+:doc:`Setup`
+    Working in Containers
+
+:doc:`Setup`
+    Building a new Container from Scratch
+
+:doc:`Setup`
+    Other
+

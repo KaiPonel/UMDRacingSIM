@@ -5,12 +5,11 @@ This project is used to simulate the autonomous behavior of the UMD-Racing car.
 The project is based on Carla which is itself is built opon Unreal Engine.
 Using Carla every part of the autonomous driving workflow can be adressed. 
 
+About
+-----
+This section is about the goals of the project and its general purpose.
 
-** About this Project **
-
-Lorem Ipsum 
 :doc:`about/index` 
-
 
 
 .. toctree::
@@ -19,6 +18,12 @@ Lorem Ipsum
    :hidden:
 
    about/index
+   
+   
+User Documentation
+------------------
+
+This Documenation handles how to work with the simulation in the normal usecases.
    
 :doc:`user/index`   
    
@@ -29,6 +34,11 @@ Lorem Ipsum
 
    user/index
    
+Admin Documentation
+-------------------
+
+This Documentation handels how to create a simulation enviorment and explains the architecture behind the simulation. 
+ 
  :doc:`admin/index`   
 
 .. toctree::

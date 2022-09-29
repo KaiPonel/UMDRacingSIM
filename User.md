@@ -45,10 +45,10 @@ To add Props to an existing maps please refer to the [CARLA Documentation](https
 
 # Write Scripts
 1. Open a new terminal in your VNC Session and navigate to the folder where carla is located using ```cd /home/carla/carla```
-2. Navigate to the PythonAPI/Examples using ```cd /PythonAPI/Examples``
+2. Navigate to the PythonAPI/Examples using ```cd /PythonAPI/Examples```
 3. Copy the dummyscript to have something to start with using ```cp ./dummy_script.py <desired_path/script_name>.py```
 4. Navigate to the directory you copied your script to and open it using ```code <script_name>```
 5. Write some code
 6. Deploy a map in the UnrealEngine Editor (in the top-right corner). Once the server is started execute your script in bash. 
 
-- ToDo: Could be more Precise. Add Information where Deploy button in UE4 is located - Overall: add more images!
+- ToDo: Could be more Precise. Add Information where Deploy button in UE4 is located - Overall: add more images!!

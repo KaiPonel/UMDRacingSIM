@@ -26,7 +26,7 @@ The project currently consists of the following content:
 - **Car Model** - A (non parameterized) model of the UMD's 2022/2023 racing car. 
 - **Dummy Script** - A script which demonstrates how to control a vehicle in CARLA using python. <br/>
 
-* As of now the project does not include any "real" simulation content. This is to be done in the future. *
+As of now the project does not include any "real" simulation content. This is to be done in the future. 
 
 ## Used technologies in the framework
 

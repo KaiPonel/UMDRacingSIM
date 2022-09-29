@@ -11,8 +11,8 @@ This file explains the overall architecture of Carla itself and the container en
 
 Depending on your situation and desired workflow you want to read the...
 
-**[User Documentation](User.md)** - If you have an enviorment setup and want to start working. <br/>
-**[Admin Documentation](Admin.md)** - If you want to setup the simulation enviorment from scratch or need to make changes to the container
+**[User Documentation](User.md)** - If you have an enviorment set up and want to start working. <br/>
+**[Admin Documentation](Admin.md)** - If you want to set up the simulation enviorment from scratch locally or need to make changes to the container
 
 # About this Framework
 

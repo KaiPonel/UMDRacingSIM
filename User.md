@@ -18,8 +18,37 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 5. **Open a VNC Connection** - On your own system, open your VNCClient and enter the following command: ```<vnc connnect command to be inserted>```
 6. **Login** - If the connection was successful you should see an Gnome Login screen. Enter your URZ Credentials to continue.
 7. **Start Carla** - Navigate to the working directory in the container using ```cd path/to/working_dir_in_container``` and start carla using ```make launch``` <br/> Note: This process might take a while (on the first launch approximately 20 minutes). If you did everything correctly you should now see an UnrealEngine V4 Editor.
+
+## Troubleshooting
+This is ToDo - Maybe also just expand the Quickstart Section and make it more detailed.
+
 # Manage Maps
+## Create new Maps
+ToDo: Insert Tebbe's Docu + Ref to Carla Docu
+
+## Modify Maps:
+To Modify the layout of the map, import the map into Roadrunner and follow the steps from the Create Maps Section <br/>
+To add Props to an existing maps please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_props/)
+
+## Delete Maps:
+(Insert: Folders to delete by User)
 
 # Manage Vehicles
+## Create a new Vehicle
+- To Create a new Vehicle please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/)
+### Know Problems Adding a Vehicle
+- Insert: Problem with Bones
+
+## Adjust existing Vehicles
+- Insert: files where important information regarding vehicle Parameters is located
+- Insert: Option to modify Vehicle Parameters using scripts.
 
 # Write Scripts
+1. Open a new terminal in your VNC Session and navigate to the folder where carla is located using ```cd /home/carla/carla```
+2. Navigate to the PythonAPI/Examples using ```cd /PythonAPI/Examples``
+3. Copy the dummyscript to have something to start with using ```cp ./dummy_script.py <desired_path/script_name>.py```
+4. Navigate to the directory you copied your script to and open it using ```code <script_name>```
+5. Write some code
+6. Deploy a map in the UnrealEngine Editor (in the top-right corner). Once the server is started execute your script in bash. 
+
+- ToDo: Could be more Precise. Add Information where Deploy button in UE4 is located - Overall: add more images!

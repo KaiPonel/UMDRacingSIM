@@ -31,6 +31,8 @@ This project only includes a framework aswell as a sample script on which simula
 - **[Ubuntu 20.04](https://releases.ubuntu.com/focal/)** - Required operation system for carla.
 - **VNCServer (Insert Link)** - VNC Protocol running in Container to allow working remotely.
 
+[![Architecture](images/SWP_Architecture_S1.drawio.svg)]
+
 
 This simulation-framework is build on the open-source [CARLA Simlulatior](https://github.com/carla-simulator/carla) which allows to build a broad variety of simulations. <br/>
 CARLA itself is build using a fork of [UnrealEngine](https://www.unrealengine.com/en-US) (Version 4.26) with modifications to the engine, cutting of some unneeded features and making it overall more suitable for its usecase. <br/>

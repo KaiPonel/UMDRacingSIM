@@ -17,7 +17,7 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 ```
 ssh <username>@ants.cs.ovgu.de 
 ```
-*Upon entering the command you will be asked for a password. The password is your URZ password (the same you use for moodle or the lsf)*
+*Upon entering the command you will be asked for a password. The password is your URZ password (the same you use for moodle or the lsf)* <br/>
 4. ** Start a container instance** - 
 
 # Manage Maps

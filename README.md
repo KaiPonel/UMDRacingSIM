@@ -31,7 +31,8 @@ This project only includes a framework aswell as a sample script on which simula
 
 
 This simulation-framework is build on the open-source [CARLA Simlulatior](https://github.com/carla-simulator/carla) which allows to build a broad variety of simulations. <br/>
-CARLA itself is build using a fork of [UnrealEngine](https://www.unrealengine.com/en-US) (Version 4.26) with modifications to the engine, cutting of some unneeded features and making it overall more suitable for its usecase.
+CARLA itself is build using a fork of [UnrealEngine](https://www.unrealengine.com/en-US) (Version 4.26) with modifications to the engine, cutting of some unneeded features and making it overall more suitable for its usecase. <br/>
+Carla is run inside a container using [Apptainer](https://apptainer.org/) which runs [Ubuntu 20.04](https://releases.ubuntu.com/focal/) which is to be executed on a computing cluster.
 
 ### Carla: Packaged vs Unpackaged Version
 If you have read the documenation of Carla you might have noted that there are two different "versions" of the projects. A tiny **packaged** version which allows the user to start writing scripts within minutes and an **unpackaged** version which has drastictly higher system requirements and takes longer to install.  <br/>

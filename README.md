@@ -24,7 +24,7 @@ The project currently consists of the following content:
 - **Simulation Framework** - This includes Carla, UnrealEngine and all dependencies related to them in order to create a proper simulation.
 - **Maps** - 5 sample maps for the different disciplines the car will face in the Formula Students Competition, according to their rulebook.
 - **Car Model** - A (non parameterized) model of the UMD's 2022/2023 racing car. 
-- **Dummy Script** - A script which demonstrates how to control a vehicle in CARLA using python.
+- **Dummy Script** - A script which demonstrates how to control a vehicle in CARLA using python. <br/>
 
 * As of now the project does not include any "real" simulation content. This is to be done in the future. *
 

@@ -14,7 +14,7 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 1. **Install a VNC-Client** - Install a VNC Client of your choice. Popular Client are (INSERT VNC CLIENTS (WITH TESTED))
 2. **Install a VPN** - In order to access the cluster you may have to use a VPN (DONT KNOW IF THIS IS THE CASE). Please refer to [OVGU - VPN ACCESS](https://www.urz.ovgu.de/vpn-path-204,616.html) for more information. After installation, start the client. 
 3. **Connect via SSH** - After activating the VPN connect to the Cluster using ssh. You can do this using the following command (TODO: COMMAND UPDATE): ```ssh <username>@ants.cs.ovgu.de``` <br/>*Upon entering the command you will be asked for a password. The password is your URZ password (the same you use for moodle or the lsf)* <br/>
-4. **Start a Container** - Upon being connected via SSH use <br/> ```cd path/to/workdir ``` <br/> to open the working directory (INSERT OVERLAY CREATE STEP?). Following that you can start the container by typing <br/> ```apptainer run --nv --overlay <overlay> <container_name>``` <br/> If everything went accordingly you should see that your bash user is now "Apptainer"<br/>
+4. **Start a Container** - Upon being connected via SSH use ```cd path/to/workdir ``` <br/> to open the working directory (INSERT OVERLAY CREATE STEP?). Following that you can start the container by typing <br/> ```apptainer run --nv --overlay <overlay> <container_name>``` <br/> If everything went accordingly you should see that your bash user is now "Apptainer"<br/>
 5. **Open a VNC Connection** - 
 # Manage Maps
 

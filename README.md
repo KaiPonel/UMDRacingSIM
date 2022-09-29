@@ -54,7 +54,7 @@ In this framework **only the unpackaged version of Carla** is used, which allows
 Using the unpackaged version of the CARLA simulator a lot more computing ressources are necessary, compared to the packaged version. To build and run Carla you should fulfill the following requirements for a good user experience:
 - **Ubuntu 18.04 or newer** <br/>
 - **130gb disk space (200gb+ for building the simulation)**<br/>
-- **Minimum of 6-8gb GPU Vram** - Using the following cards (or better) are suitable 1080Ti, 2070+, 3060+, 40XX <br/>
+- **Minimum of 6-8gb GPU Vram** - The following GPUs (or higher) are suitable 1080Ti, 2070+, 3060+, 40XX <br/>
 - **(Recommended) High amount of CPU Cores** - Especially when building the project for the first time, however also in some production workflows a high amount of CPU cores is beneficial to speed up loading times. <br/>
 
 Due to these hardware requirements we decided to bundle the simulation in an [Apptainer](https://apptainer.org/) Container which can be run on the Computing Cluster of the OVGU and accessed from outside via a VNC Connection

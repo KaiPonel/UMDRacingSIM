@@ -20,7 +20,7 @@ Depending on your situation and desired workflow you want to read the...
 The framework was built during a student project at the faculty for computer science at the OVGU Magdeburg. The goal of this project was to build a foundation on which the autonoumous behavior of the UMD Racing Car can be simulated and improved to achieve better results in future Driverless disciplines of the Formula Students Germany competitions. 
 
 ## Current state of the Project
-The project current consists of the following contents:
+The project currently consists of the following content:
 - **Simulation Framework** - This includes Carla, UnrealEngine and all dependencies related to them in order to create a proper simulation.
 - **Maps** - 5 sample maps for the different disciplines the car will face in the Formula Students Competition, according to their rulebook.
 - **Car Model** - A (non parameterized) model of the UMD's 2022/2023 racing car. 

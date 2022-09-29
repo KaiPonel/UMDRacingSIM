@@ -17,10 +17,16 @@ Depending on your situation and desired workflow you want to read the...
 # About this Framework
 
 ## Purpose of the Project
-The framework was build during a student project at the faculty for computer science at the OVGU Magdeburg. The goal of this project was to build a foundation on which the autonoumous behavior of the UMD Racing Car could be simulated and improved to achieve better results in future Driverless disciplines of the Formula Students competitions. 
+The framework was built during a student project at the faculty for computer science at the OVGU Magdeburg. The goal of this project was to build a foundation on which the autonoumous behavior of the UMD Racing Car can be simulated and improved to achieve better results in future Driverless disciplines of the Formula Students Germany competitions. 
 
 ## Current state of the Project
-This project only includes a framework aswell as a sample script on which simulation can be build upon. The framework is fairly expensive in terms of computing costs which is why we decided to bundle it into Containers which can be run on the Computing Cluster of the OVGU. 
+The project current consists of the following contents:
+- **Simulation Framework** - This includes Carla, UnrealEngine and all dependencies related to them in order to create a proper simulation.
+- **Maps** - 5 sample maps for the different disciplines the car will face in the Formula Students Competition, according to their rulebook.
+- **Car Model** - A (non parameterized) model of the UMD's 2022/2023 racing car. 
+- **Dummy Script** - A script which demonstrates how to control a vehicle in CARLA using python.
+
+* As of now the project does not include any "real" simulation content. This is to be done in the future. *
 
 ## Used technologies in the framework
 
@@ -34,15 +40,15 @@ This project only includes a framework aswell as a sample script on which simula
 ![Architecture](images/SWP_Architecture_S1.drawio.svg)
 
 
-This simulation-framework is build on the open-source [CARLA Simlulatior](https://github.com/carla-simulator/carla) which allows to build a broad variety of simulations. <br/>
+This simulation-framework is build on the open-source [CARLA Simlulatior](https://github.com/carla-simulator/carla) which allows to build a broad variety of simulations using plain python scripts or ros nodes (*to learn more about using ros in this framework, please have a look at the admin documentation)*. <br/>
 CARLA itself is build using a fork of [UnrealEngine](https://www.unrealengine.com/en-US) (Version 4.26) with modifications to the engine, cutting of some unneeded features and making it overall more suitable for its usecase. <br/>
-Carla is run inside a container using [Apptainer](https://apptainer.org/) which runs [Ubuntu 20.04](https://releases.ubuntu.com/focal/) which is to be executed on a computing cluster.
+Carla is running inside a container using [Apptainer](https://apptainer.org/) which is based on [Ubuntu 20.04](https://releases.ubuntu.com/focal/). The container can be executed on the cluster of the OVGU and accessed via a VNC connection.
 
 ### Carla: Packaged vs Unpackaged Version
 If you have read the documenation of Carla you might have noted that there are two different "versions" of the projects. A tiny **packaged** version which allows the user to start writing scripts within minutes and an **unpackaged** version which has drastictly higher system requirements and takes longer to install.  <br/>
 
-The difference is that using the unpackaged version you can make major changes to the carla simulation using the forked UnrealEngine editor, which is not available in the packaged version. This allows you to modify/add maps or vehicles. Some of these features are planned to be supported in the packaged version, but are not as of CARLA Version 0.9.13. <br/>
-In this framework **only the unpackaged version of Carla is used**, which allows major changes to maps and the used vehicles as explained above.
+The difference is that using the unpackaged version you can make major changes to the carla simulation using the forked UnrealEngine editor, which is not available in the packaged version. This allows you to modify/add maps or vehicles. Some of these features are planned to be supported in the packaged version in the future, but are not as of CARLA Version 0.9.13. <br/>
+In this framework **only the unpackaged version of Carla** is used, which allows major changes to maps and the used vehicles as explained above.
 
 ## Running Carla & Container enviorment
 Using the unpackaged version of the CARLA simulator a lot more computing ressources are necessary, compared to the packaged version. To build and run Carla you should fulfill the following requirements for a good user experience:

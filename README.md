@@ -6,7 +6,7 @@ This documenation includes a brief overview about the simulation and its archite
 
 ## Quick Start - Find what you need
 
-This file explains the overall architecture of Carla itself and the container enviorment it has been deployed in. < br/>
+This file explains the overall architecture of Carla itself and the container enviorment it has been deployed in. <br/>
 *It is highly recommended to keep **reading this file first** in order to obtain a brief overview about the project and its structure*
 
 If you have an enviorment setup and want to start working, please refer to the [User Documentation](User.md)

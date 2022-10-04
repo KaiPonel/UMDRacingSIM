@@ -10,4 +10,4 @@ If you need to "clean up" a model, i.e. make it less complicated, you can also d
 
 So the following must be present: A model where the single wheels are still objects and the rest of the car is an object, i.e. you have a model which consists of five objects.
 
-![[/docs/source/iamges/blenderObjectHierarchy.png]]
+![[blenderObjectHierarchy.png]]

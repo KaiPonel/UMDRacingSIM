@@ -30,7 +30,7 @@ When you have finished this model, export it again as an .fbx file.
 
 
 
-This node auto model must now be uploaded to Unreal Engine to create a physical asset mesh. (Helpful video: https://www.youtube.com/watch?v=TItjnI4A0io&t=381s )
+This node auto model must now be uploaded to Unreal Engine to create a physical asset mesh. ([Helpful video](https://www.youtube.com/watch?v=TItjnI4A0io&t=381s) )
 To do this, press Add/Import => import to game => select file => Import in the Content Browser (see import details here: https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/).
 Now you will find a file named Vehicle_Name_ PhysicsAssets in the Content Browser. If you click on it, it will open and you will see a physics model.
 

@@ -33,19 +33,19 @@ With this tool you can easily drag roads by right-clicking, the design of the ro
 
 With these two tools you can customize the width of the road. Also, once you have customized a road design to your own liking, you can save it and reuse it at a later time.
 
-![Item 3](./docs/source/images/rrItem2.png)
+![Item 3](./docs/source/images/rrItem3.png)
 
 With this tool you can connect two roads.
 
-![Item 4](./docs/source/images/rrItem2.png)
+![Item 4](./docs/source/images/rrItem4.png)
 
 This allows you to specify a surface (off the road). The default is lawn, but this can be easily changed by drag and drop (just drag a material (Library Browser) into the specified area.
 
-![Item 5](./docs/source/images/rrItem2.png)
+![Item 5](./docs/source/images/rrItem5.png)
 
 With this tool you can add single object. Select an object (Library Browser/Props/...) and position it by right-clicking.
 
-![Item 6](./docs/source/images/rrItem2.png)
+![Item 6](./docs/source/images/rrItem6.png)
 
 This tool is very handy when you need to add several objects with the same distance. As with the tool above, select the object to be added. On the right side an attribute window will open where you can specify the distance between the objects.
 

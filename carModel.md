@@ -31,3 +31,12 @@ To do this, press Add/Import => import to game => select file => Import in the C
 ![UEFourthWheel](./docs/source/images/UEFourthWheel.png)
 
 If UE does not recognize a wheel, click Options in the left Skeleton Tree window and select Show All Bones:
+
+![skeletonTree](./docs/source/images/skeletonTree.png)
+
+When you have done this, you will see all the wheels and the Vehicle Base. If a wheel is missing, select it (in my case the left front wheel) and click on Add Bodies in the lower right corner. Now the left front wheel should also be displayed.
+
+Since the wheels are not round, I change this on the right side in the Tools/Body Creation window. There I select Sphere instead of Capsule. I can also do this with the Vehicle Base, but there not with Sphere but with Multi Convex Hull, so the physics model is even closer to the actual model.
+
+![perfectModel](./docs/source/images/perfectModel.png)
+

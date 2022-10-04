@@ -12,3 +12,7 @@ So the following must be present: A model where the single wheels are still obje
 
 ![blenderObjectHierarchy](./docs/source/images/blenderObjectHierarchy.png)
 
+In order for CARLA to work with the model, each car model still needs bones. The structure of the required bones can be found [here]( https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/) (Add a 4 wheeled vehicle)
+
+In the bone model, the bones hang together, these must first be detached from each other and later hang together again in the same hierarchy. These bones must be on the wheels, as well as on the chassis.
+

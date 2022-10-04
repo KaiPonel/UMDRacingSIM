@@ -24,10 +24,10 @@ This is ToDo - Maybe also just expand the Quickstart Section and make it more de
 
 # Manage Maps
 ## Create new Maps
-ToDo: Insert Tebbe's Docu + Ref to Carla Docu
+[create new maps](createMaps.md)
 
 ## Modify Maps:
-To Modify the layout of the map, import the map into Roadrunner and follow the steps from the Create Maps Section <br/>
+To Modify the layout of the map, import the map into Roadrunner and follow the steps from the [Create Maps Section](createMaps.md) <br/>
 To add Props to an existing maps please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_props/)
 
 ## Delete Maps:

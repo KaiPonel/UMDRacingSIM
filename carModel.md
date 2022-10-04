@@ -9,5 +9,5 @@ The car model should also not be unnecessarily complicated, as this is only nece
 If you need to "clean up" a model, i.e. make it less complicated, you can also do this with Blender (Merge Objects in Blender, Key: j). Keep in mind that the wheels must still be single objects, so they can't be joined, but the rest of the car can be an object.
 
 So the following must be present: A model where the single wheels are still objects and the rest of the car is an object, i.e. you have a model which consists of five objects.
-![image info](./docs/source/images/blenderObjectHierarchy.png)
-![[docs/source/images/blenderObjectHierarchy.png]]
+![blenderObjectHierarchy](./docs/source/images/blenderObjectHierarchy.png)
+

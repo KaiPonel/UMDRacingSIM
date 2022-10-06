@@ -1,4 +1,5 @@
-Welcome to the User Documentation
+Welcome to the 
+Documentation
 =================================
 # Before you continue
 This documentation is **correct** for you if you have access to Carla already (either locally or on the Cluster of the OVGU) and want to do the following things:
@@ -74,7 +75,7 @@ This tool is very handy when you need to add several objects with the same dista
 
 ### Adding objects that do not yet exist
 
-If you want to add object which is not included in the Library Browser of Roadrunner, you can simply add the .fbx file to the file path (C:UsersUSERSPEICHERORT_DES_PROJEKTESAssets).
+If you want to add object which is not included in the Library Browser of Roadrunner, you can simply add the .fbx file to the file path (/path/to/project/(Assets).
 
 Sometimes there can be problems with the alignment of the added object. Either you rotate your object again and add it to the Library Browser again or you rotate the object manually in Roadrunner.
 

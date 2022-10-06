@@ -95,10 +95,6 @@ To add Props to an existing maps please refer to the [CARLA Documentation](https
 
 ---
 
-## Delete Maps:
-(Insert: Folders to delete by User)
-
---- 
 
 # Manage Vehicles
 ## Create a new Vehicle

@@ -21,7 +21,7 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 
 ## Troubleshooting
 This is ToDo - Maybe also just expand the Quickstart Section and make it more detailed.
-
+--- 
 # Manage Maps
 ## Create new Maps
 
@@ -44,7 +44,6 @@ Once you have successfully installed Roadrunner, create a new project by creatin
 
 ![RoadrunnerHomepage](./docs/source/images/RoadrunnerHomepage.png)
  
----
 
 ### Most important tools in Roadrunner:
 
@@ -72,15 +71,12 @@ With this tool you can add single object. Select an object (Library Browser/Prop
 
 This tool is very handy when you need to add several objects with the same distance. As with the tool above, select the object to be added. On the right side an attribute window will open where you can specify the distance between the objects.
 
----
 
 ### Adding objects that do not yet exist
 
 If you want to add object which is not included in the Library Browser of Roadrunner, you can simply add the .fbx file to the file path (C:UsersUSERSPEICHERORT_DES_PROJEKTESAssets).
 
 Sometimes there can be problems with the alignment of the added object. Either you rotate your object again and add it to the Library Browser again or you rotate the object manually in Roadrunner.
-
----
 
 ### Export map from Roadrunner
 
@@ -92,14 +88,14 @@ Unfortunately, the position of the track is not so easy to read from the export.
 
 To import your map into the carla simulation please refer to the official guide from the [Carla Documentation](https://carla.readthedocs.io/en/0.9.7/how_to_make_a_new_map/) (Section 3 onwards). 
 
-
+--- 
 ## Modify Maps:
 To Modify the layout of the map, import the map into Roadrunner and follow the steps from the [Create Maps Section](createMap.md) <br/>
 To add Props to an existing maps please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_props/)
-
+---
 ## Delete Maps:
 (Insert: Folders to delete by User)
-
+--- 
 # Manage Vehicles
 ## Create a new Vehicle
 - To Create a new Vehicle please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/)

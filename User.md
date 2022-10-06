@@ -92,10 +92,14 @@ To import your map into the carla simulation please refer to the official guide 
 ## Modify Maps:
 To Modify the layout of the map, import the map into Roadrunner and follow the steps from the [Create Maps Section](createMap.md) <br/>
 To add Props to an existing maps please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_props/)
+
 ---
+
 ## Delete Maps:
 (Insert: Folders to delete by User)
+
 --- 
+
 # Manage Vehicles
 ## Create a new Vehicle
 - To Create a new Vehicle please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/)

@@ -21,7 +21,7 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 
 ## Troubleshooting
 This is ToDo - Maybe also just expand the Quickstart Section and make it more detailed.
---- 
+
 # Manage Maps
 ## Create new Maps
 

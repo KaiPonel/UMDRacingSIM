@@ -25,11 +25,9 @@ This is ToDo - Maybe also just expand the Quickstart Section and make it more de
 # Manage Maps
 ## Create new Maps
 
-To add a new map in Carla (or Unreal Engine), we use the [Roadrunner](https://de.mathworks.com/products/roadrunner.html) software from MathWorks.
-
-You need a license for this software. The OVGU has a MathLab license, but Roadrunner is not included in this license.
-
-To get this license, you have to contact [URZ](https://www.urz.ovgu.de/MATLAB.html).)
+To add a new map in Carla (or Unreal Engine), we use the [Roadrunner](https://de.mathworks.com/products/roadrunner.html) software from MathWorks. <br/>
+You need a license for this software. The OVGU has a MathLab license, but Roadrunner is not included in this license. <br/>
+To get this license, you have to contact [URZ](https://www.urz.ovgu.de/MATLAB.html).) <br/>
 
 Tips for installing Roadrunner:
 [here](https://de.mathworks.com/help/roadrunner/ug/install-and-activate-roadrunner.html?s_tid=srchtit)

@@ -1,11 +1,10 @@
 Welcome to the Admin Documentation
 =================================
 # Before you continue
-This documentation is **correct** for you if you have access to Carla already (either locally or on the Cluster of the OVGU) and want to do the following things:
-- **Start Working** - Start the Container upon getting access to the Cluster. 
-- **Write Scripts** - Creating an actual simulation using python scripts.
-- **Manage Maps** - Import, Create, Delete or Change maps.
-- **Manage vehicles** - Import, Create, Delete or Change Vehicles.
+This documentation is **correct** for you if you are not just trying to run the simlulation but want/need to...
+- **Rebuild the Container** - using the buildfile
+- **Deploy the framework** - Onto a new computing cluster / node of a computing cluster
+- **Update Carla or UnrealEngine** - to get access to new features / bugfixes
 
-If this is not the case, please refer to the [Mainpage](README.md) or the [Admin Documentation](Admin.md)
+If this is not the case, please refer to the [Mainpage](README.md) or the [User Documentation](User.md)
 

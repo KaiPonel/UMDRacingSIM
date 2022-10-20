@@ -151,6 +151,4 @@ Since the wheels are not round, I change this on the right side in the Tools/Bod
 3. Copy the dummyscript to have something to start with using ```cp ./dummy_script.py <desired_path/script_name>.py```
 4. Navigate to the directory you copied your script to and open it using ```code <script_name>```
 5. Write some code
-6. Deploy a map using the "Deploy" button in the top-right corner of the UnrealEngine editor (See [Quick Start 8.]() for more information). Once the server is started execute your script in bash. 
-
-- ToDo: Could be more Precise. Add Information where Deploy button in UE4 is located - Overall: add more images!!
+6. Deploy a map using the "Deploy" button in the top-right corner of the UnrealEngine editor (See [Quick Start 8.]() for more information). Once the server is started execute your script using ```python3 <script_name>```. 

@@ -64,40 +64,33 @@ There are different levels of tests, starting with the bare container, to using 
 
 Upon completing the installation you can verify it by running 
 
-```mkdir test_ov && apptainer run --nv --overlay test_ov <Container_Dir_Name> ```
-
+1. ```mkdir test_ov && apptainer run --nv --overlay test_ov <Container_Dir_Name> ```
 You should now be in the apptainer container, noticeable by the Prefix ```Apptainer>```
 
-Run ```cd /opt/umd_simulation/carla``` and ```make launch```
-
+2. Run ```cd /opt/umd_simulation/carla``` and ```make launch```
 After some time you should see the error that the display cannot be found. If this is the case the test is passed.
 
 ### Testing the Container using VNC
 
 Upon completing the installation, run the VNCServer on the host system and connect to it with a remote computer.
 
-When connected, run ```mkdir test_ov && apptainer run --nv --overlay test_ov <Container_Dir_Name> ```
-
+1. When connected, run ```mkdir test_ov && apptainer run --nv --overlay test_ov <Container_Dir_Name> ```
 You should now be in the apptainer container, noticeable by the Prefix ```Apptainer>```
 
-Run ```cd /opt/umd_simulation/carla``` and ```make launch```
-
+2. Run ```cd /opt/umd_simulation/carla``` and ```make launch```
 After some time you should see the UnrealEngine editor opening. If this is the case the test is passed.
 
 ### Testing the Container using VNC and persistent overlays
 
 Upon completing the installation, run the VNCServer on the host system and connect to it with a remote computer.
 
-When connected, clone the [carla_container](https://code.ovgu.de/steup/carla_container) repository if you have not already.
+1. When connected, clone the [carla_container](https://code.ovgu.de/steup/carla_container) repository if you have not already.
 
-Run ```apptainer run --nv --overlay carla_container/Overlay_opt <Container_Dir_Name> ```
-
+2. Run ```apptainer run --nv --overlay carla_container/Overlay_opt <Container_Dir_Name> ```
 *Note: Depending on your installation, the* ```Overlay_opt``` *directory may be in the same folder as your container.*
-
 You should now be in the apptainer container, noticeable by the Prefix ```Apptainer>```
 
-Run ```cd /opt/umd_simulation/carla``` and ```make launch```
+3. Run ```cd /opt/umd_simulation/carla``` and ```make launch```
 
-After some time you should see the UnrealEngine editor opening. Open a terminal in the container and run ```python3 /opt/umd_simulation/carla/PythonAPI/dummyscript.py```
-
+4. After some time you should see the UnrealEngine editor opening. Open a terminal in the container and run ```python3 /opt/umd_simulation/carla/PythonAPI/dummyscript.py```
 If the file has been found everything has been installed correctly. 

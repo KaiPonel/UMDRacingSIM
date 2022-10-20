@@ -47,7 +47,7 @@ Carla is running inside a container using [Apptainer](https://apptainer.org/) wh
 ### Carla: Packaged vs Unpackaged Version
 If you have read the documenation of Carla you might have noted that there are two different "versions" of the projects. A tiny **packaged** version which allows the user to start writing scripts within minutes and an **unpackaged** version which has drastictly higher system requirements and takes longer to install.  <br/>
 
-The difference is that using the unpackaged version you can make major changes to the carla simulation using the forked UnrealEngine editor, which is not available in the packaged version. This allows you to modify/add maps or vehicles. Some of these features are planned to be supported in the packaged version in the future, but are not as of CARLA Version 0.9.13. <br/>
+The difference is that using the unpackaged version you can make major changes to the carla simulation using the forked UnrealEngine editor, which is not available in the packaged version. This allows you to modify/add maps or vehicles. Some of these features are planned to be supported in the packaged version in the future, but are not as of CARLA Version 0.9.12. <br/>
 In this framework **only the unpackaged version of Carla** is used, which allows major changes to maps and the used vehicles as explained above.
 
 ## Running Carla & Container enviorment

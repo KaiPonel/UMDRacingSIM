@@ -63,9 +63,13 @@ There are different levels of tests, starting with the bare container, to using 
 ### Testing the bare container
 
 Upon completing the installation you can verify it by running 
+
 ```mkdir test_ov && apptainer run --nv --overlay test_ov <Container_Dir_Name> ```
+
 You should now be in the apptainer container, noticeable by the Prefix ```Apptainer>```
+
 Run ```cd /opt/umd_simulation/carla``` and ```make launch```
+
 After some time you should see the error that the display cannot be found. If this is the case the test is passed.
 
 ### Testing the Container using VNC

@@ -40,6 +40,7 @@ You can obtain the buildfile by cloning this repo (recommended) or manually down
 ## Inserting your GitHub credentials
 
 Before you can use the buildfile you will have to insert your GitHub credentials and link your github account with the EpicGames, the owners of UnrealEngine. To link your accounts please refer to [this guide](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connect-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347). <br/>
+
 Since Github does no longer allow password authentication on HTTPS cloning you will also need to generate a private access token for your account, following [this guide](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
 
 Once you linked your accounts and generated a private access token open the buildfile using an editor of your choice. 
@@ -51,7 +52,7 @@ git clone --depth 1 -b carla https://{github_username}:{github_private_access_to
 Use **your GitHub** account name as ```{github_username}``` and **your generated access token** as ```{github_private_access_token}```. You can now close the file.
 
 
-*Note: You will need root permission or have an fakeroot mapping set on your system to run the buildfile. [Setting up the simulation accordingly](https://github.com/KaiPonel/UMDRacingSIM/blob/main/Admin.md#setting-up-the-host-system) and learn more about the fakeroot in the [Apptainer documentation](https://apptainer.org/docs/user/1.0/fakeroot.html) 
+*Note: You will need to have an fakeroot mapping set (or be root) on your system to run the buildfile. Refer to [setting up the simulation accordingly](https://github.com/KaiPonel/UMDRacingSIM/blob/main/Admin.md#setting-up-the-host-system) and learn more about the fakeroot in the [Apptainer documentation](https://apptainer.org/docs/user/1.0/fakeroot.html)*
 
 Once you have downloaded the buildfile navigate to it and run 
 ```apptainer build --fakeroot <Container_Dir_Name> Buildfile.def``` or alternativly 

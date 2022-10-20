@@ -101,6 +101,9 @@ To add Props to an existing maps please refer to the [CARLA Documentation](https
 
 
 # Manage Vehicles
+
+![Sequenzdiagramm_car](./docs/source/images/Sequenzdiagramm_car.png)
+
 ## Create a new Vehicle
 - To Create a new Vehicle please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/)
 ### Know Problems Adding a Vehicle

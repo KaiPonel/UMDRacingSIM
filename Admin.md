@@ -82,7 +82,7 @@ You should now be in the apptainer container, noticeable by the Prefix ```Apptai
 2. Run ```cd /opt/umd_simulation/carla``` and ```make launch```
 After some time you should see the UnrealEngine editor opening. If this is the case the test is passed.
 
-## Testing the Container using VNC and persistent overlays
+## Testing the Container using VNC and *shared* persistent overlays
 
 Upon completing the installation, run the VNCServer on the host system and connect to it with a remote computer.
 

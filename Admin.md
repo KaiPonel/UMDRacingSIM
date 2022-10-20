@@ -51,6 +51,7 @@ git clone --depth 1 -b carla https://{github_username}:{github_private_access_to
 ```
 Use **your GitHub** account name as ```{github_username}``` and **your generated access token** as ```{github_private_access_token}```. You can now close the file.
 
+** Starting the build process**
 
 *Note: You will need to have an fakeroot mapping set (or be root) on your system to run the buildfile. Refer to [setting up the simulation accordingly](https://github.com/KaiPonel/UMDRacingSIM/blob/main/Admin.md#setting-up-the-host-system) and learn more about the fakeroot in the [Apptainer documentation](https://apptainer.org/docs/user/1.0/fakeroot.html)*
 

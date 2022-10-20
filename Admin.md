@@ -1,6 +1,7 @@
 Welcome to the Admin Documentation
 =================================
-# Before you continue
+Before you continue
+-------------------
 This documentation is **correct** for you if you are not just trying to run the simlulation but want/need to...
 - **Setup the host system** - Install Apptainer, Vulcan and a VNCServer. Setup the fakeroot Mapping. 
 - **Rebuild the Container** - using the buildfile from scratch
@@ -57,7 +58,8 @@ Once you have downloaded the buildfile navigate to it and run
 
 If you've done everything correctly the buildfile should now start executing. The script takes about one to three hours to complete, depending on your system. 
 
-# Testing the installation
+Testing the installation
+----
 There are different levels of tests, starting with the bare container, to using the container with VNC and an XServer to using the container with VNC and the persistent overlay from the project repository.
 
 ## Testing the bare container

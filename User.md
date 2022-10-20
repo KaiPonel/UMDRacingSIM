@@ -146,6 +146,9 @@ Since the wheels are not round, I change this on the right side in the Tools/Bod
 
 
 # Write Scripts
+
+*Note: CARLA uses a Client-Server architecture. By deploying the simulation using the UnrealEngine editor you start the server. Using scripts you can connect onto the server. There can be multiple clients (scripts) being connected to the server simultaneously*
+
 1. Open a new terminal in your VNC Session and navigate to the folder where carla is located using ```cd /home/carla/carla```
 2. Navigate to the PythonAPI/Examples using ```cd /PythonAPI/Examples```
 3. Copy the dummyscript to have something to start with using ```cp ./dummy_script.py <desired_path/script_name>.py```

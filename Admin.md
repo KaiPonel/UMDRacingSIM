@@ -23,7 +23,7 @@ To be able to install/deploy our container you will need to complete the followi
 - ```/etc/subuid```
 - ```/etc/subgid```
 
-*Note: this is a process that may needs to be repeated if new users use the simulation. You only need a fakeroot mapping if you make changes to the simulation enviorment, so this process does not have to be done for every user. *
+*Note: this is a process that may needs to be repeated if new users use the simulation. You only need a fakeroot mapping if you make changes to the simulation enviorment, so this process does not have to be done for every user.*
 
 
 If you have executed all 4 instructions you can now start building the container using the buildfile

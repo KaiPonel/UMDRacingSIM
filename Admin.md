@@ -119,7 +119,7 @@ From: ubuntu:20.04
 	apt-get update &&
 	apt install -y ubuntu-desktop-minimal # Desktop install needed for Graphic Support
   
-  # CARLA GUIDE STARTS HERE 
+  # CARLA-START
   
 	apt-get update &&
 	apt-get install -y wget software-properties-common &&
@@ -155,8 +155,10 @@ From: ubuntu:20.04
 	export UE4_ROOT=/opt/umd_simulation/unreal_engine 
 	make PythonAPI
   
-  # CARLA GUIDE ENDS HERE
+  # CARLA-END
 	
 	chmod -R o+rwx /opt/umd_simulation
 	chmod o+w /opt
 ```
+
+The section between the "CARLA-START" and "CARLA-END" comments is basically copied from the [installation instructions](https://carla.readthedocs.io/en/latest/build_linux/) as mentioned above. If there has been a new version of Carla look for changes and modify the buildfile accordingly. 

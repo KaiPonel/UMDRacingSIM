@@ -19,6 +19,7 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 5. **Open a VNC Connection** - On your own system, open your VNCClient and enter the following command: ```<vnc connnect command to be inserted>```
 6. **Login** - If the connection was successful you should see an Gnome Login screen. Enter your URZ Credentials to continue.
 7. **Start Carla** - Navigate to the working directory in the container using ```cd path/to/working_dir_in_container``` and start carla using ```make launch``` <br/> Note: This process might take a while (on the first launch approximately 20 minutes). If you did everything correctly you should now see an UnrealEngine V4 Editor.
+8. **Deploy** - Now its time to start the simulation. Choose a map in the file browser or use the current selected one. In the top-right corner of the UrealEngine editor hit "deploy". This process should take a few minutes, depending on the system you are on. Upon completion you should see a new window on your screen. You can move arond with you W-A-S-D keys and your mouse. You have now started your first Carla Server. 
 
 ## Troubleshooting
 This is ToDo - Maybe also just expand the Quickstart Section and make it more detailed.

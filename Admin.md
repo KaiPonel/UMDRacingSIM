@@ -21,6 +21,7 @@ To be able to install/deploy our container you will need to complete the followi
 4. **Setup a Fakeroot mapping** - To allow non-root to have root permissions *inside* the container to allow packages etc. you will have to setup a mapping for the users in the following files using the schema ```<user_name>:<what_does_this_mean?>:<I_have_no_idea_right_now>```:
 - ```/etc/subuid```
 - ```/etc/subgid```
+
 *Note: this is a process that may needs to be repeated if new users use the simulation. You only need a fakeroot mapping if you make changes to the simulation enviorment, so this process does not have to be done for every user. *
 
 

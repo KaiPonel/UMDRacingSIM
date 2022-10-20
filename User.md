@@ -22,15 +22,14 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 
 ### Recurring steps
 
-3. **Connect via SSH** - After activating the VPN connect to the Cluster using ssh. You can do this using the following command (TODO: COMMAND UPDATE): ```ssh <username>@ants.cs.ovgu.de``` <br/>*Upon entering the command you will be asked for a password. The password is your URZ password (the same you use for moodle or the lsf)* <br/>
-4. **Start a Container** - Upon being connected via SSH use ```cd path/to/workdir ``` to open the working directory (INSERT OVERLAY CREATE STEP?). Following that you can start the container by typing ```apptainer run --nv --overlay <overlay> <container_name>``` <br/> If everything went accordingly you should see that your bash user is now "Apptainer"<br/>
-5. **Open a VNC Connection** - On your own system, open your VNCClient and enter the following command: ```<vnc connnect command to be inserted>```
-6. **Login** - If the connection was successful you should see an Gnome Login screen. Enter your URZ Credentials to continue.
-7. **Start Carla** - Navigate to the working directory in the container using ```cd path/to/working_dir_in_container``` and start carla using ```make launch``` <br/> Note: This process might take a while (on the first launch approximately 20 minutes). If you did everything correctly you should now see an UnrealEngine V4 Editor.
-8. **Deploy** - Now its time to start the simulation. Choose a map in the file browser or use the current selected one. In the top-right corner of the UrealEngine editor hit "deploy". This process should take a few minutes, depending on the system you are on. Upon completion you should see a new window on your screen. You can move arond with you W-A-S-D keys and your mouse. You have now started your first Carla Server. 
+1. **Connect via SSH** - After activating the VPN connect to the Cluster using ssh. You can do this using the following command (TODO: COMMAND UPDATE): ```ssh <username>@ants.cs.ovgu.de``` <br/>*Upon entering the command you will be asked for a password. The password is your URZ password (the same you use for moodle or the lsf)* <br/>
+2. **Start a VNCServer instance** - Upon being connected using SSH start a VNCServer using ```vncserver```. 
+3. **Open a VNC Connection** - On your own system, open your VNCClient and enter the following command: ```<vnc connnect command to be inserted>```
+4. **Login** - If the connection was successful you should see an Gnome Login screen. Enter your URZ Credentials to continue.
+5. **Start the container** - Navigate to your working directory. You will need the container aswell as access to the "Overlay_Opt" directory you downloaded by cloning this repository.  You can run the container using ```apptainer run --nv --overlay <path/to/Overlay_Opt> <container_name>```. You should now see the ```Apptainer>``` prefix in your terminal. 
+6. **Start Carla** - In the container, navigate to the carla directory by using ```cd /opt/umd_simulation/carla``` and run ```make launch```. This will start carla which may take a while if you do it the first time. 
+7. **Deploy** - Now its time to start the simulation. Choose a map in the file browser or use the current selected one. In the top-right corner of the UrealEngine editor hit "deploy". This process should take a few minutes, depending on the system you are on. Upon completion you should see a new window on your screen. You can move arond with you W-A-S-D keys and your mouse. You have now started your first Carla Server. 
 
-## Troubleshooting
-This is ToDo - Maybe also just expand the Quickstart Section and make it more detailed.
 
 # Manage Maps
 

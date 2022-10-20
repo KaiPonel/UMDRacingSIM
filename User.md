@@ -24,7 +24,8 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 This is ToDo - Maybe also just expand the Quickstart Section and make it more detailed.
 
 # Manage Maps
-![Sequenzdiagramm_Maps](./docs/source/images/Sequenzdiagramm_Maps .png)
+![Sequenzdiagramm_Maps](.docs/source/images/Sequenzdiagramm_Maps .png)
+
 ## Create new Maps
 
 To add a new map in Carla (or Unreal Engine), we use the [Roadrunner](https://de.mathworks.com/products/roadrunner.html) software from MathWorks. <br/>

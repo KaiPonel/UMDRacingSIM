@@ -25,8 +25,7 @@ This is ToDo - Maybe also just expand the Quickstart Section and make it more de
 
 # Manage Maps
 
-![Sequenzdiagramm_Maps](.docs/source/images/Sequenzdiagramm_Maps .png)
-
+![Sequenzdiagramm](./docs/source/images/Sequenzdiagramm_Maps.png)
 
 ## Create new Maps
 

@@ -86,7 +86,7 @@ Upon completing the installation, run the VNCServer on the host system and conne
 
 1. When connected, clone the [carla_container](https://code.ovgu.de/steup/carla_container) repository if you have not already.
 
-2. Run ```apptainer run --nv --overlay carla_container/Overlay_opt <Container_Dir_Name> ```
+2. Run ```apptainer run --nv --overlay carla_container/Overlay_opt <Container_Dir_Name> ``` <br/>
 *Note: Depending on your installation, the* ```Overlay_opt``` *directory may be in the same folder as your container.*
 You should now be in the apptainer container, noticeable by the Prefix ```Apptainer>```
 

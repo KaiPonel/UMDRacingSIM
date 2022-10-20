@@ -39,7 +39,7 @@ You can obtain the buildfile by cloning this repo (recommended) or manually down
 
 ## Inserting your GitHub credentials
 
-Before you can use the buildfile you will have to insert your GitHub credentials and link your github account with the EpicGames, the owners of UnrealEngine. <br/> To link your accounts please refer to [this guide](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connect-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347). <br/>
+Before you can use the buildfile you will have to insert your GitHub credentials and link your github account with the EpicGames, the owners of UnrealEngine. To link your accounts please refer to [this guide](https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/connect-accounts-c5719351300507/how-do-i-link-my-unreal-engine-account-with-my-github-account-a5720369784347). <br/>
 Since Github does no longer allow password authentication on HTTPS cloning you will also need to generate a private access token for your account, following [this guide](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
 
 Once you linked your accounts and generated a private access token open the buildfile using an editor of your choice. 

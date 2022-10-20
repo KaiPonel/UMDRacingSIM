@@ -2,21 +2,37 @@ Welcome to the Admin Documentation
 =================================
 # Before you continue
 This documentation is **correct** for you if you are not just trying to run the simlulation but want/need to...
+- **Setup the host system** - Install Apptainer, Vulcan and a VNCServer. Setup the fakeroot Mapping. 
 - **Rebuild the Container** - using the buildfile from scratch
 - **Deploy the framework** - Onto a new computing cluster / node of a computing cluster
 - **Update Carla or UnrealEngine** - to get access to new features / bugfixes
 
 If this is not the case, please refer to the [Mainpage](README.md) or the [User Documentation](User.md)
 
+Setting up the host system
+--------------------------
+This section describes what needs to be done on the host system to allow the framework to be deployed.
 
-Rebuild the Container 
+To be able to install/deploy our container you will need to complete the following steps on the host system:
+1. **Install Apptainer/Singularity** [Website](https://apptainer.org/), [Github](https://github.com/apptainer/apptainer)
+2. **Install Vulcan** [Website](https://developer.nvidia.com/vulkan-driver)
+*Note: Upon completing the installation the file ``/usr/share/vulkan/icd.d/nvidia_icd.json``` needs to exist on the host system. Otherwise the buildfile will not execute.*
+3. **Install a VNCServer** e.g. [TigerVNC](https://tigervnc.org/) or [TightVNC](https://www.tightvnc.com/download.php)
+4. **Setup a Fakeroot mapping** - To allow non-root to have root permissions *inside* the container to allow packages etc. you will have to setup a mapping for the users in the following files using the schema ```<user_name>:<what_does_this_mean?>:<I_have_no_idea_right_now>```:
+- ```/etc/subuid```
+- ```/etc/subgid```
+*Note: this is a process that may needs to be repeated if new users use the simulation. You only need a fakeroot mapping if you make changes to the simulation enviorment, so this process does not have to be done for every user. *
+
+
+If you have executed all 4 instructions you can now start building the container using the buildfile
+
+Build the Container 
 ---------------------
 *Note: If there has already been an built container and no changes are necessary you can simply copy the existing container and skip this section*
 This section describes how you can rebuild the container onto any system. To rebuild the container the following requirements have to be met:
-1. **Apptainer/Singularity** is installed on your host system.
-2. **Vulcan** is installed and the ```nvidia_icd.json``` file is present in ```/usr/share/vulkan/icd.d/``` on your host system.
-3. **Fakeroot mapping (/ root permissions)** - There either needs to exist a [fakeroot mapping](Link/To/Fakeroot/Explaination) for your account or you need to have root privileges. 
-4. 
+1. You have a set-up host system (Refer to [Setting up your System](Link/to/h1)
+2. You have a Github Account
+3. You have access to the [project repository](https://code.ovgu.de/steup/carla_container)
 
 If your system fullfills these requirements you can now build the container from scratch using our buildfile. You can obtain the buildfile by cloning this repo or manually downloading it here: [Buildfile.def] (link/to/BuildFile)
 

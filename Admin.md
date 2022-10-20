@@ -96,3 +96,67 @@ You should now be in the apptainer container, noticeable by the Prefix ```Apptai
 
 4. After some time you should see the UnrealEngine editor opening. Open a terminal in the container and run <br/>```python3 /opt/umd_simulation/carla/PythonAPI/dummyscript.py```
 If the file has been found and the UnrealEngine editor opened, this test is passed. 
+
+Updating the Container
+----------------------
+There may be new releases of CARLA in the future to update to. In order to do so you need to modify the buildfile.
+Our Carla installation is based on this guide: [Build Carla on Linux](https://carla.readthedocs.io/en/latest/build_linux/)
+
+This is our buildfile for Carla version 0.9.12:
+
+```
+Bootstrap: docker
+From: ubuntu:20.04
+
+%files
+	/usr/share/vulkan/icd.d/nvidia_icd.json
+
+%post
+	DEBIAN_FRONTEND=noninteractive
+	apt-get update && apt-get install -y gnupg2 tzdata keyboard-configuration
+	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 15CF4D18AF4F7421
+  
+	apt-get update &&
+	apt install -y ubuntu-desktop-minimal # Desktop install needed for Graphic Support
+  
+  # CARLA GUIDE STARTS HERE 
+  
+	apt-get update &&
+	apt-get install -y wget software-properties-common &&
+	add-apt-repository ppa:ubuntu-toolchain-r/test &&
+	wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add - &&
+	apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main" &&
+	apt-get update
+	apt-add-repository "deb http://apt.llvm.org/focal/ llvm-toolchain-focal main"
+	apt-get install -y build-essential clang-8 lld-10 g++-7 cmake ninja-build libvulkan1 python python-dev python3-dev python3-pip libpng-dev libtiff5-dev libjpeg-dev tzdata sed curl unzip autoconf libtool rsync libxml2-dev git
+	update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-10/bin/clang++ 100 &&
+	update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-10/bin/clang 100
+	update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-8/bin/clang++ 180 &&
+	update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-8/bin/clang 180
+	pip3 install --upgrade pip
+	pip install --user setuptools &&
+	pip3 install --user -Iv setuptools==47.3.1 &&
+	pip install --user distro &&
+	pip3 install --user distro &&
+	pip install --user wheel &&
+	pip3 install --user wheel auditwheel
+
+	mkdir /opt/umd_simulation
+	
+	#IMPORTANT: Add your GitHub credentials before running! Otherwise it will break here - obviously ;)
+	git clone --depth 1 -b carla https://{github_username}:{github_private_access_token}@github.com/CarlaUnreal/UnrealEngine.git /opt/umd_simulation/unreal_engine
+	cd /opt/umd_simulation/unreal_engine
+	./Setup.sh && ./GenerateProjectFiles.sh && make
+
+	cd /opt/umd_simulation
+	git clone https://github.com/carla-simulator/carla /opt/umd_simulation/carla
+	cd /opt/umd_simulation/carla
+	./Update.sh
+	export UE4_ROOT=/opt/umd_simulation/unreal_engine 
+	make PythonAPI
+  
+  # CARLA GUIDE ENDS HERE
+	
+	chmod -R o+rwx /opt/umd_simulation
+	chmod o+w /opt
+```

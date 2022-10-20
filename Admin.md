@@ -19,7 +19,7 @@ To be able to install/deploy our container you will need to complete the followi
 2. **Install Vulcan** [Website](https://developer.nvidia.com/vulkan-driver)
 *Note: Upon completing the installation the file ```/usr/share/vulkan/icd.d/nvidia_icd.json``` needs to exist on the host system. Otherwise the buildfile will not execute.*
 3. **Install a VNCServer** e.g. [TigerVNC](https://tigervnc.org/) or [TightVNC](https://www.tightvnc.com/download.php)
-4. **Setup a Fakeroot mapping** - To allow non-root to have root permissions *inside* the container to allow packages etc. you will have to setup a mapping for the users in the following files using the schema ```<user_name>:<what_does_this_mean?>:<I_have_no_idea_right_now>```:
+4. **Setup a Fakeroot mapping** - To allow non-root to have root permissions *inside* the container to allow packages etc. you will have to setup a mapping for the users in the following files using the schema ```<user_name>:<uid>:<uid>```:
 - ```/etc/subuid```
 - ```/etc/subgid```
 

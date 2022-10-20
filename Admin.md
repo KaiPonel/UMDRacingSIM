@@ -43,8 +43,8 @@ Since Github does no longer allow password authentication on HTTPS cloning you w
 Once you linked your accounts and generated a private access token open the buildfile using an editor of your choice. 
 Scroll down a bit until you see these lines:
 ```
-	#IMPORTANT: Add your GitHub credentials before running! Otherwise it will break here - obviously ;)
-	git clone --depth 1 -b carla https://{github_username}:{github_private_access_token}@github.com/CarlaUnreal/UnrealEngine.git /opt/umd_simulation/unreal_engine
+#IMPORTANT: Add your GitHub credentials before running! Otherwise it will break here - obviously ;)
+git clone --depth 1 -b carla https://{github_username}:{github_private_access_token}@github.com/CarlaUnreal/UnrealEngine.git /opt/umd_simulation/unreal_engine
 ```
 Use your github account name as ```{github_username}``` and your just generated access token as ```{github_private_access_token}```. You can now close the file.
 

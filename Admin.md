@@ -92,5 +92,5 @@ You should now be in the apptainer container, noticeable by the Prefix ```Apptai
 
 3. Run ```cd /opt/umd_simulation/carla``` and ```make launch```
 
-4. After some time you should see the UnrealEngine editor opening. Open a terminal in the container and run ```python3 /opt/umd_simulation/carla/PythonAPI/dummyscript.py```
+4. After some time you should see the UnrealEngine editor opening. Open a terminal in the container and run <br/>```python3 /opt/umd_simulation/carla/PythonAPI/dummyscript.py```
 If the file has been found and the UnrealEngine editor opened, this test is passed. 

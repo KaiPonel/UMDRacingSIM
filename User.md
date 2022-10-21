@@ -119,7 +119,7 @@ To import your map into the carla simulation please refer to the official guide 
 
 
 ## Modify Maps:
-To Modify the layout of the map, import the map into Roadrunner and follow the steps from the [Create Maps Section](User.md #Manage Map) <br/>
+To Modify the layout of the map, import the map into Roadrunner and follow the steps from the [Create Maps Section](https://github.com/KaiPonel/UMDRacingSIM/blob/main/User.md#manage-maps) <br/>
 To add Props to an existing maps please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_props/)
 
 ---

@@ -48,7 +48,7 @@ Now that you have a license, install Roadrunner as described above (link). Remem
 ![licenses](./docs/source/images/licenses.png)
 
 <p align="center">
-  <img width="460" height="300" src="./docs/source/images/licenses.png">
+  <img src="./docs/source/images/licenses.png">
 </p>
 
 Quick links: 

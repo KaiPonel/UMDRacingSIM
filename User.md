@@ -64,27 +64,39 @@ Once you have successfully installed Roadrunner, create a new project by creatin
 
 ### Most important tools in Roadrunner:
 
-![Item 1](./docs/source/images/rrItem1.png)
+<p align="center">
+  <img src="./docs/source/images/rrItem1.png">
+</p>
 
 With this tool you can easily drag roads by right-clicking, the design of the road can be selected at the bottom right (Library Browser/RoadStyles) (Hint: first select the design and then drag the roads).
 
-![Item 2](./docs/source/images/rrItem2.png)
+<p align="center">
+  <img src="./docs/source/images/rrItem2.png">
+</p>
 
 With these two tools you can customize the width of the road. Also, once you have customized a road design to your own liking, you can save it and reuse it at a later time.
 
-![Item 3](./docs/source/images/rrItem3.png)
+<p align="center">
+  <img src="./docs/source/images/rrItem3.png">
+</p>>
 
 With this tool you can connect two roads.
 
-![Item 4](./docs/source/images/rrItem4.png)
+<p align="center">
+  <img src="./docs/source/images/rrItem4.png">
+</p>
 
 This allows you to specify a surface (off the road). The default is lawn, but this can be easily changed by drag and drop (just drag a material (Library Browser) into the specified area.
 
-![Item 5](./docs/source/images/rrItem5.png)
+<p align="center">
+  <img src="./docs/source/images/rrItem5.png">
+</p>
 
 With this tool you can add single object. Select an object (Library Browser/Props/...) and position it by right-clicking.
 
-![Item 6](./docs/source/images/rrItem6.png)
+<p align="center">
+  <img src="./docs/source/images/rrItem6.png">
+</p>
 
 This tool is very handy when you need to add several objects with the same distance. As with the tool above, select the object to be added. On the right side an attribute window will open where you can specify the distance between the objects.
 
@@ -115,7 +127,9 @@ To add Props to an existing maps please refer to the [CARLA Documentation](https
 
 # Manage Vehicles
 
-![Sequenzdiagramm_car](./docs/source/images/Sequenzdiagramm_car.png)
+<p align="center">
+  <img src="./docs/source/images/Sequenzdiagramm_car.png">
+</p>
 
 ## Create a new Vehicle
 To add a car model in CARLA, you need the model itself and a suitable physics model. Note that the physics model should be very very simple, so that the calculations are not so difficult/expensive.
@@ -126,15 +140,21 @@ If you need to "clean up" a model, i.e. make it less complicated, you can also d
 
 So the following must be present: A model where the single wheels are still objects and the rest of the car is an object, i.e. you have a model which consists of five objects.
 
-![blenderObjectHierarchy](./docs/source/images/blenderObjectHierarchy.png)
+<p align="center">
+  <img src="./docs/source/images/blenderObjectHierarchy.png">
+</p>
 
 In order for CARLA to work with the model, each car model still needs bones. The structure of the required bones can be found here (Add a 4 wheeled vehicle)
 
 In the bone model, the bones hang together, these must first be detached from each other and later hang together again in the same hierarchy. These bones must be on the wheels, as well as on the chassis.
 
-![carFront](./docs/source/images/carFront.png)
+<p align="center">
+  <img src="./docs/source/images/carFront.png">
+</p>
 
-![carBelow](./docs/source/images/carBelow.png)
+<p align="center">
+  <img src="./docs/source/images/carBelow.png">
+</p>
 
 When adding the bones it is important that the hierarchy of the bones is not changed (see picture above)!
 
@@ -144,17 +164,23 @@ This node auto model must now be uploaded to Unreal Engine to create a physical 
 
 To do this, press Add/Import => import to game => select file => Import in the Content Browser (see import details [here]( https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/). Now you will find a file named Vehicle_Name_ PhysicsAssets in the Content Browser. If you click on it, it will open and you will see a physics model.
 
-![UEFourthWheel](./docs/source/images/UEFourthWheel.png)
+<p align="center">
+  <img src="./docs/source/images/UEFourthWheel.png">
+</p>
 
 If UE does not recognize a wheel, click Options in the left Skeleton Tree window and select Show All Bones:
 
-![skeletonTree](./docs/source/images/skeletonTree.png)
+<p align="center">
+  <img src="./docs/source/images/skeletonTree.png">
+</p>
 
 When you have done this, you will see all the wheels and the Vehicle Base. If a wheel is missing, select it (in my case the left front wheel) and click on Add Bodies in the lower right corner. Now the left front wheel should also be displayed.
 
 Since the wheels are not round, I change this on the right side in the Tools/Body Creation window. There I select Sphere instead of Capsule. I can also do this with the Vehicle Base, but there not with Sphere but with Multi Convex Hull, so the physics model is even closer to the actual model.
 
-![perfectModel](./docs/source/images/perfectModel.png)
+<p align="center">
+  <img src="./docs/source/images/perfectModel.png">
+</p>
 
 
 # Write Scripts

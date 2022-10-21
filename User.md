@@ -31,8 +31,10 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 
 
 # Manage Maps
+<p align="center">
+  <img src="./docs/source/images/Sequenzdiagramm_Maps.png">
+</p>
 
-![Sequenzdiagramm](./docs/source/images/Sequenzdiagramm_Maps.png)
 
 ## Create new Maps
 
@@ -45,8 +47,6 @@ Tips for installing Roadrunner:
 
 Now that you have a license, install Roadrunner as described above (link). Remember that your computer must be logged in!
 
-![licenses](./docs/source/images/licenses.png)
-
 <p align="center">
   <img src="./docs/source/images/licenses.png">
 </p>
@@ -57,8 +57,10 @@ Quick links:
 
 Once you have successfully installed Roadrunner, create a new project by creating a new Scene.
 
-![RoadrunnerHomepage](./docs/source/images/RoadrunnerHomepage.png)
- 
+
+ <p align="center">
+  <img src="./docs/source/images/RoadrunnerHomepage.png">
+</p>
 
 ### Most important tools in Roadrunner:
 

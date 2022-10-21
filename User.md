@@ -1,8 +1,7 @@
-Welcome to the 
-Documentation
-=================================
+# Welcome to the Documentation
+
 # Before you continue
-This documentation is **correct** for you if you have access to Carla already (either locally or on the Cluster of the OVGU) and want to do the following things:
+This documentation is **correct** for you if you have access to CARLA already (either locally or on the Cluster of the OVGU) and want to do the following things:
 - **Start Working** - Start the Container upon getting access to the Cluster. 
 - **Write Scripts** - Creating an actual simulation using python scripts.
 - **Manage Maps** - Import, Create, Delete or Change maps.
@@ -27,8 +26,8 @@ If this is not the case, please refer to the [Mainpage](README.md) or the [Admin
 3. **Open a VNC Connection** - On your own system, open your VNCClient and enter the following command: ```<vnc connnect command to be inserted>```
 4. **Login** - If the connection was successful you should see an Gnome Login screen. Enter your URZ Credentials to continue.
 5. **Start the container** - Navigate to your working directory. You will need the container aswell as access to the "Overlay_Opt" directory you downloaded by cloning this repository.  You can run the container using ```apptainer run --nv --overlay <path/to/Overlay_Opt> <container_name>```. You should now see the ```Apptainer>``` prefix in your terminal. 
-6. **Start Carla** - In the container, navigate to the carla directory by using ```cd /opt/umd_simulation/carla``` and run ```make launch```. This will start carla which may take a while if you do it the first time. 
-7. **Deploy** - Now its time to start the simulation. Choose a map in the file browser or use the current selected one. In the top-right corner of the UrealEngine editor hit "deploy". This process should take a few minutes, depending on the system you are on. Upon completion you should see a new window on your screen. You can move arond with you W-A-S-D keys and your mouse. You have now started your first Carla Server. 
+6. **Start CARLA** - In the container, navigate to the CARLA directory by using ```cd /opt/umd_simulation/carla``` and run ```make launch```. This will start CARLA which may take a while if you do it the first time. 
+7. **Deploy** - Now its time to start the simulation. Choose a map in the file browser or use the current selected one. In the top-right corner of the UrealEngine editor hit "deploy". This process should take a few minutes, depending on the system you are on. Upon completion you should see a new window on your screen. You can move arond with you W-A-S-D keys and your mouse. You have now started your first CARLA Server. 
 
 
 # Manage Maps

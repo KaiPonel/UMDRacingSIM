@@ -117,9 +117,9 @@ Unfortunately, the position of the track is not so easy to read from the export.
 
 To import your map into the carla simulation please refer to the official guide from the [Carla Documentation](https://carla.readthedocs.io/en/0.9.7/how_to_make_a_new_map/) (Section 3 onwards). 
 
---- 
+
 ## Modify Maps:
-To Modify the layout of the map, import the map into Roadrunner and follow the steps from the [Create Maps Section](createMap.md) <br/>
+To Modify the layout of the map, import the map into Roadrunner and follow the steps from the [Create Maps Section](User.md #Manage Map) <br/>
 To add Props to an existing maps please refer to the [CARLA Documentation](https://carla.readthedocs.io/en/latest/tuto_A_add_props/)
 
 ---

@@ -1,18 +1,18 @@
-Welcome to the Carla-Based Driverless UMD Simulation Framework
+Welcome to the CARLA-Based Driverless UMD Simulation Framework
 =============================================================
 
-Welcome to the documenation of the Carla-Based Driverless UMD Simulation Framework!  <br/>
+Welcome to the documenation of the CARLA-Based Driverless UMD Simulation Framework!  <br/>
 This documenation includes a brief overview about the simulation and its architecture and explains how you can work with the simulation or set it up from scratch.
 
 ## Quick Start - Find what you need
 
-This file explains the overall architecture of Carla itself and the container enviorment it has been deployed in. <br/>
+This file explains the overall architecture of CARLA itself and the container enviorment it has been deployed in. <br/>
 *It is highly recommended to keep **reading this file first** in order to obtain a brief overview about the project and its structure*
 
 Depending on your situation and desired workflow you want to read the...
 
 **[User Documentation](User.md)** - If you have an enviorment set up and want to start working. <br/>
-**[Admin Documentation](Admin.md)** - If you want to set up the simulation enviorment from scratch locally or need to make changes to the container
+**[Admin Documentation](Admin.md)** - If you want to set up the simulation enviorment from scratch locally or need to make changes to the container.
 
 # About this Framework
 
@@ -21,7 +21,7 @@ The framework was built during a student project at the faculty for computer sci
 
 ## Current state of the Project
 The project currently consists of the following content:
-- **Simulation Framework** - This includes Carla, UnrealEngine and all dependencies related to them in order to create a proper simulation.
+- **Simulation Framework** - This includes CARLA, UnrealEngine and all dependencies related to them in order to create a proper simulation.
 - **Maps** - 5 sample maps for the different disciplines the car will face in the Formula Students Competition, according to their rulebook.
 - **Car Model** - A (non parameterized) model of the UMD's 2022/2023 racing car. 
 - **Dummy Script** - A script which demonstrates how to control a vehicle in CARLA using python. <br/>
@@ -32,9 +32,9 @@ As of now the project does not include any "real" simulation content. This is to
 
 ### Quick Overview
 - **[CARLA Simlulator](https://github.com/carla-simulator/carla)** - Base of our Framework
-- **[UnrealEngine (4.26)](https://www.unrealengine.com/en-US)** - Foundation of the Carla Simulator
+- **[UnrealEngine (4.26)](https://www.unrealengine.com/en-US)** - Foundation of the CARLA Simulator
 - **[Apptainer](https://apptainer.org/)** - Container Enviorment to run the Framework remotely on a computing cluster
-- **[Ubuntu 20.04](https://releases.ubuntu.com/focal/)** - Required operation system for carla.
+- **[Ubuntu 20.04](https://releases.ubuntu.com/focal/)** - Required operation system for CARLA.
 - **VNCServer (Insert Link)** - VNC Protocol running in Container to allow working remotely.
 
 ![Architecture](images/SWP_Architecture_S1.drawio.svg)

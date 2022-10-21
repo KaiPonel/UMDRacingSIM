@@ -1,4 +1,4 @@
-# Welcome to the Documentation
+# Welcome to the User-Documentation
 
 # Before you continue
 This documentation is **correct** for you if you have access to CARLA already (either locally or on the Cluster of the OVGU) and want to do the following things:
@@ -46,6 +46,10 @@ Tips for installing Roadrunner:
 Now that you have a license, install Roadrunner as described above (link). Remember that your computer must be logged in!
 
 ![licenses](./docs/source/images/licenses.png)
+
+<p align="center">
+  <img width="460" height="300" src="./docs/source/images/licenses.png">
+</p>
 
 Quick links: 
 - [Tutorials](https://de.mathworks.com/videos/search.html?q=&fq[]=product:RD&page=1)

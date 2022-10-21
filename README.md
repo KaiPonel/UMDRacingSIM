@@ -37,7 +37,9 @@ As of now the project does not include any "real" simulation content. This is to
 - **[Ubuntu 20.04](https://releases.ubuntu.com/focal/)** - Required operation system for CARLA.
 - **[VNCServer](https://tigervnc.org/)** - VNC Protocol running in Container to allow working remotely.
 
-![Architecture](images/SWP_Architecture_S1.drawio.svg)
+<p align="center">
+  <img src="images/SWP_Architecture_S1.drawio.svg">
+</p>
 
 
 This simulation-framework is build on the open-source [CARLA Simlulatior](https://github.com/carla-simulator/carla) which allows to build a broad variety of simulations using plain python scripts or ros nodes (*to learn more about using ros in this framework, please have a look at the admin documentation)*. <br/>

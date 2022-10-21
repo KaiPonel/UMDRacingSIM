@@ -1,7 +1,7 @@
 Welcome to the Carla-Based Driverless UMD Simulation Framework
 =============================================================
 
-Welcome to the documenation of the Carla-Based Driverless UMD Simulation Framework!
+Welcome to the documenation of the Carla-Based Driverless UMD Simulation Framework!  <br/>
 This documenation includes a brief overview about the simulation and its architecture and explains how you can work with the simulation or set it up from scratch.
 
 ## Quick Start - Find what you need

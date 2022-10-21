@@ -78,7 +78,7 @@ With these two tools you can customize the width of the road. Also, once you hav
 
 <p align="center">
   <img src="./docs/source/images/rrItem3.png">
-</p>>
+</p>
 
 With this tool you can connect two roads.
 

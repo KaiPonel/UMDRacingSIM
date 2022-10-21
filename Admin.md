@@ -1,4 +1,4 @@
-Welcome to the Admin Documentation
+Welcome to the Admin-Documentation
 =================================
 Before you continue
 -------------------
